@@ -23,3 +23,4 @@ let analytics;
    }
 
 export { auth, analytics };
+export default firebaseConfig;
