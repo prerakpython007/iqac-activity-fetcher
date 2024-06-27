@@ -19,7 +19,7 @@ const StaticInfo: React.FC = () => {
         <Image src="/IQAC-logo.png" alt='img' className='w-[500px] m-auto' width={100} height={100}/>
         <div className='bg-purple-600 bg-opacity-15 px-10 py-10 rounded-xl'>
       <h1 className='text-3xl text-purple-600 font-extrabold'>Introduction:</h1><br />
-      <p className='text-2xl leading-10 text-justify'>The Internal Quality Cell (IQC) is a dedicated unit within an institution focused
+      <p className='lg:text-2xl text-lg leading-10 text-justify'>The Internal Quality Cell (IQC) is a dedicated unit within an institution focused
           on ensuring the seamless execution and rigorous evaluation of both academic
           and administrative activities. The primary goal of the IQC is to maintain and
           enhance the quality of all institutional undertakings, encompassing the entire
