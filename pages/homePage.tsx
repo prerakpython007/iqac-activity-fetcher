@@ -18,7 +18,7 @@ const StaticInfo: React.FC = () => {
     <div className='text-black w-[90%] m-auto'>
         <Image src="/IQAC-logo.png" alt='img' className='w-[500px] m-auto' width={100} height={100}/>
         <div className='bg-purple-600 bg-opacity-15 px-10 py-10 rounded-xl'>
-      <h1 className='text-3xl text-purple-600 font-extrabold'>Introduction:</h1><br />
+      <h1 className='lg:text-3xl text-xl text-purple-600 font-extrabold'>Introduction:</h1><br />
       <p className='lg:text-2xl lg:leading-10 text-lg leading-10 text-justify'>The Internal Quality Cell (IQC) is a dedicated unit within an institution focused
           on ensuring the seamless execution and rigorous evaluation of both academic
           and administrative activities. The primary goal of the IQC is to maintain and
@@ -31,16 +31,16 @@ const StaticInfo: React.FC = () => {
       {/* Add more static content as needed */}
     </div>
     <div className='text-black w-[90%] m-auto'>
-      <h1 className='text-3xl text-purple-600 font-extrabold'>Vision &amp; Mission:</h1> <br /><br />
-      <ul className='list-disc text-2xl w-[70%] m-auto font-bold leading-[70px] text-blue-950 '>
+      <h1 className='lg:text-3xl text-xl text-purple-600 font-extrabold'>Vision &amp; Mission:</h1> <br />
+      <ul className='list-disc lg:text-2xl text-lg w-[70%] m-auto font-bold lg:leading-[70px] leading-[50px] text-blue-950 '>
         <li>Preserving Quality Culture in Higher Education.</li>
         <li>Institutionalizing and internalizing activities.</li>
         <li>Supporting internal and external sources.</li>
       </ul>
-    </div> <br /><br />
+    </div> <br />
     <div className='text-black w-[90%] m-auto'>
-        <h1 className='text-3xl text-purple-600 font-extrabold'>Objectives:</h1><br /> <br />
-        <ul className='list-disc text-2xl w-[70%] m-auto font-bold leading-[70px] text-blue-950'>
+        <h1 className='lg:text-3xl text-xl text-purple-600 font-extrabold'>Objectives:</h1><br /> <br />
+        <ul className='list-disc lg:text-2xl text-lg w-[70%] m-auto font-bold lg:leading-[70px] leading-[50px] text-blue-950'>
           <li>To Develop conscious, consistent, catalytic action for academic and
           administrative improvement.</li>
           <li>To Promote quality enhancement through internalization of quality culture
