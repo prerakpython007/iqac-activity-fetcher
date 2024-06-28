@@ -15,7 +15,7 @@ const DropDown2 = ({ options }: { options: Option[] }) => {
   
   return (
     <div className="relative px-3">
-      <button className="flex items-center" onClick={() => setIsExpanded(!isExpanded)}>
+      <button className="flex lg:text-lg text-xs items-center" onClick={() => setIsExpanded(!isExpanded)}>
         <div className="mr-1 py-1 ">Report</div>
         {isExpanded ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
       </button>

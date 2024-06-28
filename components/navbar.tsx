@@ -26,11 +26,11 @@ const Navbar: React.FC = () => {
   return (
     <nav className="bg-purple-600 bg-[] text-white p-4 flex justify-between items-center">
       <Link href="/homePage">
-        <Image src='/logo_LSRC.png' alt='img' width={150} className='md:hidden sm:hidden lg:block' height={150}/>
+        <Image src='/logo_LSRC.png' alt='img' width={150} className='hidden lg:block' height={150}/>
       </Link>
       <div className="flex items-center">
         <Link href="/iqac" legacyBehavior>
-          <a className="px-4 hover:text-gray-200">IQAC Members</a>
+          <a className="px-4 lg:text-lg text-xs hover:text-gray-200">IQAC Members</a>
         </Link>
         {user && (
           <>
@@ -75,11 +75,11 @@ const Navbar: React.FC = () => {
           </>
         )}
         {user ? (
-          <button onClick={handleLogout} className='py-1 px-2 flex bg-white bg-opacity-20 rounded-lg hover:bg-opacity-50 transition'>
+          <button onClick={handleLogout} className='py-1 px-2 flex text-xs lg:text-lg bg-white bg-opacity-20 rounded-lg hover:bg-opacity-50 transition'>
             Log-out <LogOut size={25} className='py-1 ' />
           </button>
         ) : (
-          <button onClick={() => setShowLoginForm(true)} className='py-1 px-2 flex bg-white bg-opacity-20 rounded-lg hover:bg-opacity-50 transition'>
+          <button onClick={() => setShowLoginForm(true)} className='py-1 px-2 flex text-xs lg:text-lg bg-white bg-opacity-20 rounded-lg hover:bg-opacity-50 transition'>
             Login <LogIn size={25} className='py-1'/>
           </button>
         )}
