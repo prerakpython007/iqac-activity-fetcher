@@ -64,7 +64,7 @@ const StaticInfo: React.FC = () => {
     </footer>
     <div className='bg-white'>
         <p className='text-black font-light text-sm justify-end flex px-14 py-2'>WebPage by Prerak</p>
-      </div>
+    </div>
     </div>
   );
 };
