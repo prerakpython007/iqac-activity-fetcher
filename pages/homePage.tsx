@@ -50,7 +50,7 @@ const StaticInfo: React.FC = () => {
     <footer className='bg-purple-600 pt-10 px-10 pb-6'>
       <div className='grid grid-cols-2 gap-14'>
         <div className=''>
-          <h1 className='py-4 font-extrabold text-lg'>L. S. Raheja College of Arts & Commerce</h1>
+          <h1 className='py-4 font-extrabold text-lg'>L. S. Raheja College of Arts  Commerce</h1>
           <p className='leading-7'>The Sadhana Education Society's L. S. Raheja College of Arts and Commerce is located at a vantage point in Juhu and has virtually become the cornerstone for academic excellence.</p>
         </div>
         <div>
