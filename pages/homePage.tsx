@@ -66,12 +66,16 @@ const StaticInfo: React.FC = () => {
         <p className='text-black font-light text-sm justify-end flex px-14 py-2'>WebPage by Prerak</p>
       </div> */}
       <footer className='bg-purple-600 py-8'>
-        <div>
+        <div className='grid grid-cols-2'>
           <div>
             <h1>L. S. Raheja College of Arts & Commerce</h1>
+            <p>The Sadhana Education Society's L. S. Raheja College of Arts and Commerce is located at a vantage point in Juhu and has virtually become the cornerstone for academic excellence.</p>
           </div>
           <div>
-
+            <h1>Contact Us</h1>
+            <p>Relief Road, Juhu, Santacruz (W), Mumbai-400054</p>
+            <p>+91-22-2660 9320</p>
+            <p>Contact Us</p>
           </div>
         </div>
       </footer>
