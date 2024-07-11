@@ -47,7 +47,7 @@ const StaticInfo: React.FC = () => {
           and best practices.</li>
         </ul> <br /> <br />
     </div>
-    <footer className='bg-purple-600 pt-10 px-10 pb-6'>
+    {/* <footer className='bg-purple-600 pt-10 px-10 pb-6'>
       <div className='grid grid-cols-2 gap-14'>
         <div className=''>
           <h1 className='py-4 font-extrabold text-lg'>L. S. Raheja College of Arts and Commerce</h1>
@@ -61,7 +61,7 @@ const StaticInfo: React.FC = () => {
         </div>
       </div>
       
-    </footer>
+    </footer> */}
     <div className='bg-white'>
         <p className='text-black font-light text-sm justify-end flex px-14 py-2'>WebPage by Prerak</p>
     </div>
