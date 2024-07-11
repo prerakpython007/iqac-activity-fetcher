@@ -4,7 +4,7 @@ import LoginForm from '@/components/loginForm';
 import { useAuth } from '@/contexts/AuthContext';
 import { auth } from '@/lib/firebaseConfig';
 import { signOut } from 'firebase/auth';
-import { LogIn, LogOut } from 'lucide-react';
+import { Contact, LocateFixedIcon, LocateIcon, LogIn, LogOut, Mail } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
@@ -47,9 +47,24 @@ const StaticInfo: React.FC = () => {
           and best practices.</li>
         </ul> <br /> <br />
     </div>
-    <footer className='bg-purple-600 pt-32'>
-
+    <footer className='bg-purple-600 pt-10 px-10 pb-6'>
+      <div className='grid grid-cols-2 gap-14'>
+        <div className=''>
+          <h1 className='py-4 font-extrabold text-lg'>L. S. Raheja College of Arts & Commerce</h1>
+          <p className='leading-7'>The Sadhana Education Society's L. S. Raheja College of Arts and Commerce is located at a vantage point in Juhu and has virtually become the cornerstone for academic excellence.</p>
+        </div>
+        <div>
+          <h1 className='py-4 font-extrabold text-lg'>Contact Us</h1>
+          <p className='flex py-2 '> <LocateFixedIcon className='mx-2'/> Relief Road, Juhu, Santacruz (W), Mumbai-400054</p>
+          <p   className='flex  py-2'> <Contact className='mx-2'/> +91-22-2660 9320</p>
+          <p  className='flex py-2'> <Mail  className='mx-2' /> Contact Us</p>
+        </div>
+      </div>
+      
     </footer>
+    <div className='bg-white'>
+        <p className='text-black font-light text-sm justify-end flex px-14 py-2'>WebPage by Prerak</p>
+      </div>
     </div>
   );
 };
