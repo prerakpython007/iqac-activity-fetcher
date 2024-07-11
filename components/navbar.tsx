@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-purple-600 bg-[] text-white p-4 flex justify-between items-center">
+    <nav className="bg-purple-600 bg-[] text-white px-4 flex justify-between items-center">
       <Link href="/homePage">
         <Image src='/logo_LSRC.png' alt='img' width={400} className='hidden lg:block' height={150}/>
       </Link>
