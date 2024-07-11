@@ -26,9 +26,10 @@ const Navbar: React.FC = () => {
   return (
     <nav className="bg-purple-600 bg-[] text-white p-4 flex justify-between items-center">
       <Link href="/homePage">
-        <Image src='/logo_LSRC.png' alt='img' width={150} className='hidden lg:block' height={150}/>
+        <Image src='/logo_LSRC.png' alt='img' width={400} className='hidden lg:block' height={150}/>
       </Link>
       <div className="flex items-center">
+        <Image src='/iqac_logo.png' width={100} height={100} />
         <Link href="/iqac" legacyBehavior>
           <a className="px-4 lg:text-lg text-xs hover:text-gray-200">IQAC Members</a>
         </Link>

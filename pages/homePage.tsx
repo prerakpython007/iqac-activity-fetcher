@@ -15,8 +15,8 @@ import React, { useState } from 'react';
 const StaticInfo: React.FC = () => {
   return (
     <div className='bg-white'>
-    <div className='text-black w-[90%]  m-auto'>
-        <Image src="/IQAC-logo.png" alt='img' className='w-[500px] m-auto' width={100} height={100}/>
+    <div className='text-black w-[90%] py-14  m-auto'>
+        
         <div className='bg-purple-600 bg-opacity-15 px-10 py-10 rounded-xl'>
       <h1 className='lg:text-3xl text-xl text-purple-600 font-extrabold'>Introduction:</h1><br />
       <p className='lg:text-2xl lg:leading-10 text-lg leading-7 text-justify'>The Internal Quality Cell (IQC) is a dedicated unit within an institution focused
