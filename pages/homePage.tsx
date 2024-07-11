@@ -75,7 +75,7 @@ const StaticInfo: React.FC = () => {
             <h1 className='font-extrabold py-4'>Contact Us</h1>
             <p className='flex py-2'><LocateFixed className='mx-2'/> Relief Road, Juhu, Santacruz (W), Mumbai-400054</p>
             <p className='flex py-2'> < Phone className='mx-2'/> +91-22-2660 9320</p>
-            <p className='flex py-2'> < MailIcon className='mx-2' /> Contact Us</p>
+            <a href="https://www.lsraheja.org/contactus/"><p className='flex py-2'> < MailIcon className='mx-2' /> Contact Us</p></a>
           </div>
         </div>
         <div className='bg-white'>
