@@ -68,7 +68,7 @@ const StaticInfo: React.FC = () => {
       <footer className='bg-purple-600 py-8'>
         <div>
           <div>
-            <h1>L. S. Raheja College of Arts &amp Commerce</h1>
+            <h1>L. S. Raheja College of Arts & Commerce</h1>
           </div>
           <div>
 
