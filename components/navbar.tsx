@@ -76,11 +76,11 @@ const Navbar: React.FC = () => {
           </>
         )}
         {user ? (
-          <button onClick={handleLogout} className='py-1 px-2 flex text-xs lg:text-lg bg-white bg-opacity-20 rounded-lg hover:bg-opacity-50 transition'>
+          <button onClick={handleLogout} className='py-1 px-2 flex text-sm lg:text-lg bg-white bg-opacity-20 rounded-lg hover:bg-opacity-50 transition'>
             Log-out <LogOut size={25} className='py-1 ' />
           </button>
         ) : (
-          <button onClick={() => setShowLoginForm(true)} className='py-1 px-2 flex text-xs lg:text-lg bg-white bg-opacity-20 rounded-lg hover:bg-opacity-50 transition'>
+          <button onClick={() => setShowLoginForm(true)} className='py-1 px-2 flex text-sm lg:text-lg bg-white bg-opacity-20 rounded-lg hover:bg-opacity-50  transition'>
             Login <LogIn size={25} className='py-1'/>
           </button>
         )}

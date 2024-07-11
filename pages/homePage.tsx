@@ -4,7 +4,7 @@ import LoginForm from '@/components/loginForm';
 import { useAuth } from '@/contexts/AuthContext';
 import { auth } from '@/lib/firebaseConfig';
 import { signOut } from 'firebase/auth';
-import { Contact, LocateFixedIcon, LocateIcon, LogIn, LogOut, Mail } from 'lucide-react';
+import { Contact, LocateFixed, LocateFixedIcon, LocateIcon, LogIn, LogOut, Mail, MailIcon, Phone } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
@@ -65,18 +65,21 @@ const StaticInfo: React.FC = () => {
       <div className='bg-white'>
         <p className='text-black font-light text-sm justify-end flex px-14 py-2'>WebPage by Prerak</p>
       </div> */}
-      <footer className='bg-purple-600 py-8'>
-        <div className='grid grid-cols-2'>
-          <div>
-            <h1>L. S. Raheja College of Arts & Commerce</h1>
-            <p>The Sadhana Education Society`s L. S. Raheja College of Arts and Commerce is located at a vantage point in Juhu and has virtually become the cornerstone for academic excellence.</p>
+      <footer className='bg-purple-600 pt-4 '>
+        <div className='lg:grid lg:grid-cols-2 lg:px-11 mx-5'>
+          <div className='w-[80%] lg:block hidden '>
+            <h1 className='font-extrabold py-4'>L. S. Raheja College of Arts & Commerce</h1>
+            <p className='text-justify'>The Sadhana Education Society`s L. S. Raheja College of Arts and Commerce is located at a vantage point in Juhu and has virtually become the cornerstone for academic excellence.</p>
           </div>
-          <div>
-            <h1>Contact Us</h1>
-            <p>Relief Road, Juhu, Santacruz (W), Mumbai-400054</p>
-            <p>+91-22-2660 9320</p>
-            <p>Contact Us</p>
+          <div className='pb-3'>
+            <h1 className='font-extrabold py-4'>Contact Us</h1>
+            <p className='flex py-2'><LocateFixed className='mx-2'/> Relief Road, Juhu, Santacruz (W), Mumbai-400054</p>
+            <p className='flex py-2'> < Phone className='mx-2'/> +91-22-2660 9320</p>
+            <p className='flex py-2'> < MailIcon className='mx-2' /> Contact Us</p>
           </div>
+        </div>
+        <div className='bg-white'>
+          <p className='text-black flex justify-end px-14 py-2 text-xs'>WebPage by Prerak</p>
         </div>
       </footer>
     </div>
