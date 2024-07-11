@@ -69,7 +69,7 @@ const StaticInfo: React.FC = () => {
         <div className='grid grid-cols-2'>
           <div>
             <h1>L. S. Raheja College of Arts & Commerce</h1>
-            <p>The Sadhana Education Society's L. S. Raheja College of Arts and Commerce is located at a vantage point in Juhu and has virtually become the cornerstone for academic excellence.</p>
+            <p>The Sadhana Education Society`s L. S. Raheja College of Arts and Commerce is located at a vantage point in Juhu and has virtually become the cornerstone for academic excellence.</p>
           </div>
           <div>
             <h1>Contact Us</h1>
